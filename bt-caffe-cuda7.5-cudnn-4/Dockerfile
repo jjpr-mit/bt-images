@@ -1,4 +1,4 @@
-FROM nvidia/cuda:nvidia/cuda:7.5-cudnn4-devel
+FROM nvidia/cuda:7.5-cudnn4-devel
 LABEL maintainer jjpr@mit.edu
 # copied from https://github.com/BVLC/caffe/blob/master/docker/gpu/Dockerfile
 
