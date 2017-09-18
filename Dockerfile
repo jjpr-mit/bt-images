@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         blender \
         && rm -rf /var/lib/apt/lists/*
 
+RUN pip install --upgrade pip
 RUN pip install skdata pymongo panda3d
 RUN pip install git+https://github.com/yamins81/yamutils.git#egg=yamutils
 
