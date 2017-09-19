@@ -20,6 +20,7 @@ RUN pip install pymongo
 RUN pip install panda3d
 RUN pip install numpy
 RUN pip install skdata
+RUN pip install boto
 RUN pip install git+https://github.com/yamins81/yamutils.git#egg=yamutils
 
 ENV PATH_TO_GENTHOR=/home/genthor
