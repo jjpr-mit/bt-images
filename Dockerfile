@@ -24,6 +24,8 @@ RUN pip install boto
 RUN pip install matplotlib
 RUN pip install bson
 RUN pip install tornado
+RUN pip install Pillow
+RUN pip install git+https://github.com/jaberg/pyll.git#egg=pyll
 RUN pip install git+https://github.com/yamins81/yamutils.git#egg=yamutils
 
 ENV PATH_TO_GENTHOR=/home/genthor
