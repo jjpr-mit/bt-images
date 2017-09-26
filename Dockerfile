@@ -25,7 +25,6 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 
 RUN pip install boto
-RUN pip install bson
 RUN pip install matplotlib
 RUN pip install numpy
 RUN pip install Pillow
